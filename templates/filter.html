@@ -6,6 +6,8 @@
 	<script src="file:///C:/Users/X541UJ/JQuery/static/js/filter.js"></script>
 </head>
 <body>
+	<div><p>Hello</p></div>
+	<div class="selected"><p>Hello Again</p></div>
 	<ul class="level-1">
 		<li class="item-i">I</li>
 		<li class="item-ii">II
@@ -23,5 +25,11 @@
 		</li>
 		<li class="item-iii">III</li>
 	</ul>
+
+	<script>
+		$('li.item-a').parent().css("background-color","pink");
+		$("p").parent(".selected").css("background","yellow");
+	</script>
+
 </body>
 </html>
